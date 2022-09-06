@@ -1,0 +1,214 @@
+{
+    "general": {
+        "language": "english",
+        "loader": {
+            "text": "Getting data..."
+        },
+        "carousel": {
+            "visible": true,
+            "animate": true,
+            "time": 10000
+        },
+        "search": {
+            "tags": {
+                "visible": false
+            },
+            "filters": {
+                "visible": false
+            },
+            "visible": true
+        },
+        "halfway_menu": {
+            "visible": true
+        },
+        "footer": {
+            "logo": "_____.png",
+            "background": "footer-background_399395-PCOQ5H-624.png",
+            "description": "",
+            "visible": true
+        },
+        "license": {
+            "text": ""
+        }
+    },
+    "404": {
+        "title": "Page not found",
+        "carousel": {
+            "visible": true,
+            "items": [{
+                "message": "",
+                "image": "cowpea.jpg"
+            }]
+        }
+    },
+    "home": {
+        "carousel": {
+            "visible": true,
+            "items": [{
+                "message": "",
+                "image": "cowpea.jpg"
+            }]
+        },
+        "sections": {
+            "help": {
+                "title": "Instructions to develop a new ontology",
+                "items_per_page": null,
+                "read_more_button": {
+                    "visible": false,
+                    "label": ""
+                },
+                "visible": true
+            },
+            "news": {
+                "title": "Latest news",
+                "items_per_page": 3,
+                "read_more_button": {
+                    "visible": true,
+                    "label": "Read more..."
+                },
+                "visible": true
+            },
+            "ontologies": {
+                "title": "Ontologies",
+                "items_per_page": 10,
+                "read_more_button": {
+                    "visible": true,
+                    "label": "All ontologies ›"
+                },
+                "visible": true
+            }
+        }
+    },
+    "latest": {
+        "title": "Latest Ontologies and Terms",
+        "visible": true,
+        "carousel": {
+            "visible": false,
+            "items": [{
+                "message": "",
+                "image": "cowpea.jpg"
+            }]
+        }
+    },
+    "about": {
+        "title": "About the Project",
+        "visible": true,
+        "carousel": {
+            "visible": true,
+            "items": [{
+                "message": "",
+                "image": "Neil Palmer-CIAT - About the project.jpg"
+            }]
+        }
+    },
+    "privacy-policy": {
+        "title": "Privacy policy",
+        "visible": true,
+        "carousel": {
+            "visible": true,
+            "items": [{
+                "message": "",
+                "image": "Neil Palmer-CIAT - Privacy policies.jpg"
+            }]
+        }
+    },
+    "API": {
+        "title": "API",
+        "visible": true,
+        "carousel": {
+            "visible": true,
+            "items": [{
+                "message": "",
+                "image": "Neil Palmer-CIAT - API"
+            }]
+        }
+    },
+    "contact-us": {
+        "title": "Contact us",
+        "visible": true,
+        "carousel": {
+            "visible": true,
+            "items": [{
+                "message": "",
+                "image": "Neil Palmer-CIAT - Contact us.jpg"
+            }]
+        }
+    },
+    "feedback": {
+        "title": "Feedback",
+        "visible": true,
+        "carousel": {
+            "visible": true,
+            "items": [{
+                "message": "",
+                "image": "Neil Palmer-CIAT - Feedback..jpg"
+            }]
+        }
+    },
+    "add-ontology": {
+        "title": "Add new terms",
+        "visible": true,
+        "carousel": {
+            "visible": true,
+            "items": [{
+                "message": "",
+                "image": "credit_Bioversity International- Add anew term.jpg"
+            }]
+        }
+    },
+    "ontology": {
+        "title": "",
+        "visible": true,
+        "carousel": {
+            "visible": false,
+            "items": [{
+                "message": "",
+                "image": ""
+            }]
+        }
+    },
+    "terms": {
+        "title": "",
+        "visible": true,
+        "carousel": {
+            "visible": false,
+            "items": [{
+                "message": "",
+                "image": ""
+            }]
+        }
+    },
+    "register": {
+        "title": "Register",
+        "visible": true,
+        "carousel": {
+            "visible": false,
+            "items": [{
+                "message": "",
+                "image": ""
+            }]
+        }
+    },
+    "forgot-password": {
+        "title": "Forgot password",
+        "visible": true,
+        "carousel": {
+            "visible": false,
+            "items": [{
+                "message": "",
+                "image": ""
+            }]
+        }
+    },
+    "annotation-tool": {
+        "title": "Annotation Tool",
+        "visible": true,
+        "carousel": {
+            "visible": false,
+            "items": [{
+                "message": "",
+                "image": ""
+            }]
+        }
+    }
+}

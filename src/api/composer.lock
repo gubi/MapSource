@@ -1,0 +1,182 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "42bb2153e6175f8130ef3281712ad509",
+    "packages": [
+        {
+            "name": "klein/klein",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/klein/klein.php.git",
+                "reference": "6549676cc831b9417332b3d9485c64bbf7bac728"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/klein/klein.php/zipball/6549676cc831b9417332b3d9485c64bbf7bac728",
+                "reference": "6549676cc831b9417332b3d9485c64bbf7bac728",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/php-code-coverage": "^2.2",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "1.4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Klein\\": "src/Klein/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris O'Hara",
+                    "email": "cohara87@gmail.com",
+                    "homepage": "http://chris6f.com/",
+                    "role": "Creator/Developer"
+                },
+                {
+                    "name": "Trevor Suarez",
+                    "email": "rican7@gmail.com",
+                    "homepage": "https://trevorsuarez.com/",
+                    "role": "Contributor/Developer"
+                }
+            ],
+            "description": "A lightning fast router for PHP",
+            "homepage": "https://github.com/klein/klein.php",
+            "keywords": [
+                "boilerplate",
+                "router",
+                "routing",
+                "sinatra"
+            ],
+            "support": {
+                "issues": "https://github.com/klein/klein.php/issues",
+                "source": "https://github.com/klein/klein.php/tree/master"
+            },
+            "time": "2017-02-01T23:08:58+00:00"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
+                "reference": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.3 <5.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Michelf\\": "Michelf/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "support": {
+                "issues": "https://github.com/michelf/php-markdown/issues",
+                "source": "https://github.com/michelf/php-markdown/tree/1.9.1"
+            },
+            "time": "2021-11-24T02:52:38+00:00"
+        },
+        {
+            "name": "misd/linkify",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/misd-service-development/php-linkify.git",
+                "reference": "3481b148806a23b4001712de645247a1a4dcc10a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/misd-service-development/php-linkify/zipball/3481b148806a23b4001712de645247a1a4dcc10a",
+                "reference": "3481b148806a23b4001712de645247a1a4dcc10a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^5.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Misd\\Linkify\\": "src/Misd/Linkify"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Converts URLs and email addresses in text into HTML links",
+            "homepage": "https://github.com/misd-service-development/php-linkify",
+            "keywords": [
+                "convert",
+                "email address",
+                "link",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/misd-service-development/php-linkify/issues",
+                "source": "https://github.com/misd-service-development/php-linkify/tree/v1.1.4"
+            },
+            "time": "2017-08-17T08:33:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

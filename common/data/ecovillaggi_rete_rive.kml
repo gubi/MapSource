@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ecovillaggi</name>
+    <description/>
+    <Style id="icon-503-93D7E8-labelson">
+      <IconStyle>
+        <color>ffe8d793</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-labelson">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-labelson-nodesc">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>Ecovillaggi RIVE</name>
+      <Placemark>
+        <name>Alvador</name>
+        <description>http://ecovillaggi.it/rive/progetti/186-roncadella.html</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            10.7044667,44.6594851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bau Mela
+</name>
+        <description><![CDATA[sede legale: via Università 30, 09124 Cagliari<br>sede operativa: Santu Lussurgiu, località BAU DE MELA<br><br>Email: baumela@tiscali.it<br>Sito web: https://baumela.wordpress.com/<br>Alessio 3356236719]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            8.6570253,40.1422486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Campanara</name>
+        <description><![CDATA[Via Campanara 1<br>55035 Palazzolo sul Senio (FI)<br>http://campanara.ecovillaggi.it]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.49373,44.10034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa del cuculo</name>
+        <description>http://ecovillaggi.it/rive/ecovillaggi/174-casa-del-cuculo.html</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.1019659999999,44.126771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cascina Gervasoni</name>
+        <description><![CDATA[Fraz. Foppe di San Gallo n.11-13<br>24015 San Giovanni Bianco (BG)<br>http://cascinagervasoni.ecovillaggi.it]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            9.67885799999999,45.863304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Lonjer</name>
+        <description><![CDATA[Strada per Longera 191/1<br>34128 Trieste (TS)<br>http://casalonjer.ecovillaggi.it]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            13.81484,45.64986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Case Bacò
+</name>
+        <description><![CDATA[Crespano del Grappa - TV<br>case.baco@gmail.com]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.8400403,45.8287402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ciricea</name>
+        <description>http://ciricea.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            10.888824,44.006892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Co-housing Rio Selva</name>
+        <description>http://rioselva.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.2621300000001,45.59201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Comune Ananke
+</name>
+        <description><![CDATA[Contrada Burgio <br>90019 Trabia (PA)<br>Email: comuneananke@gmail.com<br>fb: pagina comune ananke]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            13.6461308,38.0006815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Comunita' di Etica Vivente]]></name>
+        <description>http://ecovillaggi.it/rive/ecovillaggi/175-etica-vivente.html</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.0423089999999,42.933867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corricelli (Basilico)</name>
+        <description><![CDATA[Via di Corricelli n.6 - 59025 Cantagallo (PO); <br>http://basilico.ecovillaggi.it]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.163649,43.995181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fattoria Solidale Brugine</name>
+        <styleUrl>#icon-503-F4EB37-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            11.9766128,45.2897157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Federazione di Comunità di Damanhur</name>
+        <description><![CDATA[Via Pramarzo, 3<br>10080 Pramarzo, Baldissero Canavese (TO)<br>http://damanhur.ecovillaggi.it]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            7.74707000000001,45.406141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaia Terra
+</name>
+        <description>http://ecovillaggi.it/rive/progetti/223-gaia-terra.html</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            13.0646752,45.8931716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Feel Ecovillaggio</name>
+        <styleUrl>#icon-503-F4EB37-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.0492231000001,40.8909326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Habitat</name>
+        <description>http://habitat.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            10.882464,43.489076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Bigallo
+</name>
+        <description><![CDATA[http://ecovillaggi.it/rive/ecovillaggi/215-il-bigallo.html<br>https://www.facebook.com/Bigallo/]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.3693204,44.3434062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Giardino della Gioia
+</name>
+        <description><![CDATA[Ecovillaggio in costruzione<br>Contrada Torre Mileto<br>Proprietà D'Agruma San Nicandro Garganico (FG)<br>https://ecovillaggi.it/rive/ecovillaggi/32-giardinodellagioia.html]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            15.5634655,41.8369564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il Popolo degli Elfi
+</name>
+        <description>http://elfi.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            10.85844,43.875594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[L'asino e la luna]]></name>
+        <description>http://asinoluna.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.060193,42.027096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Casa Rotta
+</name>
+        <description>http://ecovillaggi.it/rive/ecovillaggi/114-la-casa-rotta.html</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            7.89932499999998,44.627214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Città della luce</name>
+        <description>http://cittadellaluce.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            13.1232816,43.6633344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Comune di Bagnaia</name>
+        <description>http://bagnaia.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.2105799999999,43.29454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La terra del sorriso</name>
+        <description>http://terradelsorriso.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.1925441,42.7845111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lumen</name>
+        <description>http://lumen.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            9.93389000000002,45.0359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panta Rei</name>
+        <description>http://pantarei.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.1559403,43.1994316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rays</name>
+        <description>http://rays.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            10.979698,43.144178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tempo di Vivere</name>
+        <description>http://ecovillaggi.it/rive/ecovillaggi/57-tempo-di-vivere.html</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            9.51108699999997,44.751945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torre di Mezzo</name>
+        <description>http://torredimezzo.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.16673,43.99636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torri Superiore</name>
+        <description>http://torrisuperiore.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            7.55395899999996,43.839603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Upacchi</name>
+        <description>http://upacchi.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.992607,43.507849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utopiaggia</name>
+        <description><![CDATA[Villa Piaggia 21, 05010 Montegabbione (Terni)<br><br>Email: info@utopiaggia.eu<br>Sito web: https://www.utopiaggia.eu/<br>Karl-Ludwig 3473487805]]></description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.1509379,42.9407692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villaggio Verde</name>
+        <description>http://villaggioverde.ecovillaggi.it</description>
+        <styleUrl>#icon-503-F4EB37-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            8.41251669999997,45.6519976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Progetti RIVE</name>
+      <Placemark>
+        <name>Almaterra</name>
+        <description>http://ecovillaggi.it/rive/ecovillaggi/160-almaterra.html</description>
+        <styleUrl>#icon-503-93D7E8-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.6726919,45.3439539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bella Verde
+</name>
+        <description>http://ecovillaggi.it/rive/progetti/182-bella-verde.html</description>
+        <styleUrl>#icon-503-93D7E8-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.9239974,42.5347118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Candit</name>
+        <description>http://ecovillaggi.it/rive/ecovillaggi/155-candit.html</description>
+        <styleUrl>#icon-503-93D7E8-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            14.199703,42.24875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eco Varchi
+</name>
+        <description>http://ecovillaggi.it/rive/progetti/227-eco-varchi.html</description>
+        <styleUrl>#icon-503-93D7E8-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            8.23851330000002,46.0667427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ecovillaggio a pedali</name>
+        <description>http://ecovillaggioapedali.ecovillaggi.it</description>
+        <styleUrl>#icon-503-93D7E8-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.64486,42.326258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fattoria Il Rosmarino</name>
+        <description>http://ecovillaggi.it/rive/progetti/183-rosmarino.html</description>
+        <styleUrl>#icon-503-93D7E8-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            12.2858102,45.5469523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Negrignana</name>
+        <description>http://ecovillaggi.it/rive/progetti/151-negrignana.html</description>
+        <styleUrl>#icon-503-93D7E8-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            10.0227683000001,45.7060575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tierra de Esperanza Cohousing</name>
+        <description>http://tierradeesperanza.ecovillaggi.it</description>
+        <styleUrl>#icon-503-93D7E8-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            11.6753848,45.7225464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

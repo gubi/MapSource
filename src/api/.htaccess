@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    Options -MultiViews
+
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ route.php [L]
+
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>

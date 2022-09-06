@@ -1,0 +1,65 @@
+
+left:
+    # Home
+    - class: "home"
+      link:
+          href: "./"
+      content:
+          icon: ""
+          label: "Home"
+    # Contact us
+    - class: "contact_us"
+      link:
+          href: "./contact_us"
+      content:
+          icon: ""
+          label: "Contact us"
+right:
+    items:
+        - item:
+            # Print
+            - class: "print"
+              link:
+                  href: "javascript:console.log(Print);"
+              content:
+                  icon: "fa-print"
+                  label: "Print"
+            # Pdf
+            - class: "pdf"
+              link:
+                  href: "javascript:;"
+              content:
+                  icon: "fa-file-pdf-o"
+                  label: "Pdf"
+            # E-book
+            - class: "ebook"
+              link:
+                  href: "javascript:;"
+              content:
+                  icon: "fa-tablet"
+                  label: "E-book"
+        - item:
+            # Print
+            - class: "linkedin"
+              link:
+                  href: "https://www.linkedin.com/in/alessandro-gubitosi"
+                  target: "_blank"
+              content:
+                  icon: "fa-linkedin"
+                  label: "LinkedIn"
+            # Github
+            - class: "github"
+              link:
+                  href: "http://www.github.com/gubi"
+                  target: "_blank"
+              content:
+                  icon: "fa-github"
+                  label: "Github"
+            # Twitter
+            - class: "twitter"
+              link:
+                  href: "https://twitter.com/Gubithouse"
+                  target: "_blank"
+              content:
+                  icon: "fa-twitter"
+                  label: "Twitter"

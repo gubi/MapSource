@@ -1,0 +1,7 @@
+# Database connection parameters
+
+database:
+    host: "localhost"
+    username: "root"
+    password: "cmzu83x1"
+    dbname: "mapsource"

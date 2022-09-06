@@ -1,0 +1,4 @@
+
+site:
+    domain: "mapsource.local"
+    cookie_domain: "mapsource"

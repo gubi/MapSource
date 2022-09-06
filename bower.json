@@ -1,0 +1,32 @@
+{
+  "name": "mapsource",
+  "description": "The Sharing Projects Community project to join people through maps",
+  "main": "",
+  "authors": [
+    "Alessandro Gubitosi <gubi.ale@iod.gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/Sharing-Projects-Community/MapSource",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "file-saver": "^2.0.0",
+    "fontawesome": "^5.5.0",
+    "jquery": "^3.5.1",
+    "js-xlsx": "^0.16.8",
+    "bootstrap": "^5.0.0-beta1",
+    "mimoza": "^1.0.0",
+    "picol-font": "*",
+    "leaflet-plugins": "^3.4.0",
+    "leaflet": "^1.7.0",
+    "leaflet.markercluster": "^1.4.1",
+    "leaflet-fullscreen": "Leaflet/Leaflet.fullscreen#^1.0.2",
+    "Leaflet.awesome-markers": "^2.0.2"
+  },
+  "keywords": []
+}

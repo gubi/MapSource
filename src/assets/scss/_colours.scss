@@ -1,0 +1,49 @@
+
+$grey: #ccc;
+$light-grey: #ddd;
+$light-light-grey: #eee;
+$very-light-grey: #efefef;
+$white-grey: #fafafa;
+$white-white-grey: #fefefe;
+$medium-light-grey: #999;
+$medium-grey: #666;
+$medium-dark-grey: #454545;
+$dark-grey: #333;
+
+$black: #000;
+$white: #fff;
+
+$highlight-very-clear: #ead09d;
+$highlight-clear: #ef9f5d;
+$highlight: #f28021;
+$highlight-dark: #db6200;
+
+$tag-light-green: #9fddc0;
+$tag-green: #56a681;
+
+$tag-light-blue: #b8e0ef;
+$tag-blue: #568da6;
+$text-blue: #3f83b9;
+
+$rss: #f26522;
+
+
+.highlight-text, .highlight {
+  color: $highlight;
+}
+.highlight-btn, .btn-highlight {
+  background-color: $highlight;
+  color: white;
+  text-decoration: none !important;
+
+  &:hover { background-color: $highlight-dark; }
+  &.btn-flat {
+    background-color: white;
+    color: $highlight;
+  }
+}
+
+
+.help-text {
+  color: $grey;
+}

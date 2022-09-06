@@ -1,0 +1,16 @@
+{
+    "name": "mapsource/api",
+    "description": "The API service for the MapSource website",
+    "authors": [
+        {
+            "name": "Alessandro Gubitosi",
+            "email": "gubi.ale@iod.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "klein/klein": "^2.1",
+        "misd/linkify": "^1.1",
+        "michelf/php-markdown": "^1.7"
+    }
+}

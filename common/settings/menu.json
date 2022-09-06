@@ -1,0 +1,312 @@
+{
+    "menu": {
+        "sidenav": {
+            "position": "right",
+            "items": [
+                {
+                    "label": "Home",
+                    "link": "./",
+                    "display": true
+                },
+                {
+                    "label": "About",
+                    "link": "./about",
+                    "display": true
+                },
+                {
+                    "label": "Add new terms",
+                    "link": "./add-ontology",
+                    "display": true
+                },
+                {
+                    "label": "API",
+                    "link": "./api",
+                    "display": false
+                },
+                {
+                    "label": "Agtrials",
+                    "link": "./agtrials",
+                    "display": false
+                },
+                {
+                    "label": "Annotation Tool",
+                    "link": "./annotation-tool",
+                    "display": true
+                },
+                { "separator": true },
+                {
+                    "label": "Login",
+                    "link": "#user_modal",
+                    "class": "modal-trigger",
+                    "display": true
+                },
+                {
+                    "label": "Register",
+                    "link": "./register",
+                    "display": true
+                }
+            ]
+        },
+        "top_menu": {
+            "position": "right",
+            "class": "",
+            "items": [
+                {
+                    "label": "Home",
+                    "link": "./",
+                    "display": true,
+                    "is_sidenav_link": false
+                },
+                {
+                    "label": "About",
+                    "link": "./about",
+                    "display": true,
+                    "is_sidenav_link": false
+                },
+                {
+                    "label": "Add new terms",
+                    "link": "./add-ontology",
+                    "display": true,
+                    "is_sidenav_link": false
+                },
+                {
+                    "label": "API",
+                    "link": "./api",
+                    "display": false,
+                    "is_sidenav_link": false
+                },
+                {
+                    "label": "Agtrials",
+                    "link": "./agtrials",
+                    "display": false,
+                    "is_sidenav_link": false
+                },
+                {
+                    "label": "Annotation Tool",
+                    "link": "./annotation-tool",
+                    "display": true,
+                    "is_sidenav_link": false
+                },
+                { "separator": true },
+                {
+                    "label": "Login",
+                    "link": "#user_modal",
+                    "class": "modal-trigger",
+                    "display": true,
+                    "is_sidenav_link": false
+                },
+                { "separator": "or" },
+                {
+                    "label": "Register",
+                    "link": "./register",
+                    "display": true,
+                    "is_sidenav_link": false
+                },
+                {
+                    "link": "javascript:;",
+                    "data": {
+                        "activates": "sidenav"
+                    },
+                    "class": "button-collapse black-text",
+                    "display": true,
+                    "is_sidenav_link": true
+                }
+            ]
+        },
+        "halfway_menu": {
+            "position": "center",
+            "class": "",
+            "items": [
+                {
+                    "label": "Contact us",
+                    "link": "./contact-us",
+                    "display": true
+                },
+                {
+                    "label": "API",
+                    "link": "./API",
+                    "display": true
+                },
+                {
+                    "label": "Feedback",
+                    "link": "./feedback",
+                    "display": true
+                }
+            ]
+        },
+        "footer_menu": {
+            "items": [
+                {
+                    "title": "&nbsp;",
+                    "position": "left_menu",
+                    "class": "",
+                    "items": [
+                        {
+                            "label": "Home",
+                            "link": "./",
+                            "display": true
+                        },
+                        { "separator": "" },
+                        {
+                            "label": "About",
+                            "link": "./about",
+                            "display": true
+                        },
+                        {
+                            "label": "Blog",
+                            "link": "./blog",
+                            "display": false
+                        },
+                        {
+                            "label": "API",
+                            "link": "./api",
+                            "display": false
+                        },
+                        {
+                            "label": "Agtrials",
+                            "link": "./agtrials",
+                            "display": false
+                        },
+                        {
+                            "label": "Annotation Tool",
+                            "link": "./annotation-tool",
+                            "display": true
+                        },
+                        {
+                            "label": "All ontologies",
+                            "link": "./all-ontologies",
+                            "display": false
+                        },
+                        {
+                            "label": "Contact us",
+                            "link": "./contact-us",
+                            "display": true
+                        },
+                        {
+                            "label": "Feedback",
+                            "link": "./feedback",
+                            "display": true
+                        },
+                        {
+                            "label": "Privacy policy",
+                            "link": "./privacy-policy",
+                            "display": true
+                        }
+                    ]
+                },
+                {
+                    "title": "Related sites",
+                    "position": "center_menu",
+                    "class": "",
+                    "items": [
+                        {
+                            "label": "Integrated Breeding Platform",
+                            "link": "https://www.integratedbreeding.net",
+                            "display": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "label": "Bioversity International",
+                            "link": "http://www.bioversityinternational.org",
+                            "display": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "label": "NSF (National Science Foundation) -  cROP: Common Reference Ontologies and Applications for Plant Biology",
+                            "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1340112",
+                            "display": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "label": "Planteome",
+                            "link": "http://www.planteome.org",
+                            "display": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Follow us",
+                    "position": "right_menu",
+                    "class": "horizontal",
+                    "items": [
+                        {
+                            "label": "Github",
+                            "link": "https://github.com/bioversity/Crop-Ontology/",
+                            "display": true,
+                            "target": "_blank",
+                            "icon": "fab fa-github fa-2x"
+                        },
+                        {
+                            "label": "Youtube",
+                            "link": "https://www.youtube.com/channel/UC1HBPf5qzcR6YGaAh-3TzNg",
+                            "display": true,
+                            "target": "_blank",
+                            "icon": "fab fa-youtube fa-2x"
+                        },
+                        {
+                            "label": "Crop Ontology Community Website",
+                            "link": "https://sites.google.com/a/cgxchange.org/cropontologycommunity/",
+                            "display": true,
+                            "target": "_blank",
+                            "icon": "fas fa-newspaper fa-2x"
+                        }
+                    ]
+                }
+            ]
+        },
+        "bottom_links": {
+            "items": [
+                {
+                    "title": "",
+                    "position": "left",
+                    "class": "",
+                    "items": [
+                        {
+                            "label": "Integrated Breeding Platform",
+                            "link": "https://www.integratedbreeding.net",
+                            "image": "ibp.png",
+                            "display": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "label": "Bioversity International",
+                            "link": "http://www.bioversityinternational.org",
+                            "image": "bioversity_small.png",
+                            "display": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "label": "NSF (National Science Foundation) -  cROP: Common Reference Ontologies and Applications for Plant Biology",
+                            "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1340112",
+                            "image": "nsf.jpg",
+                            "display": true,
+                            "target": "_blank"
+                        },
+                        {
+                            "label": "Planteome",
+                            "link": "http://www.planteome.org",
+                            "image": "planteome.png",
+                            "display": true,
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "title": "Bottom Heading",
+                    "position": "right",
+                    "class": "",
+                    "items": [
+                        {
+                            "label": "Platform for Big Data in Agricolture",
+                            "link": "https://www.cgiar.org/research/program-platform/platform-for-big-data-in-agriculture/",
+                            "image": "big-data_platform_logo.png",
+                            "display": true,
+                            "target": "_blank"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

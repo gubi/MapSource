@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Progetti RIVE",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Almaterra", "description": "http:\/\/ecovillaggi.it\/rive\/ecovillaggi\/160-almaterra.html" }, "geometry": { "type": "Point", "coordinates": [ 11.6726919, 45.3439539 ] } },
+{ "type": "Feature", "properties": { "Name": "Bella Verde\n", "description": "http:\/\/ecovillaggi.it\/rive\/progetti\/182-bella-verde.html" }, "geometry": { "type": "Point", "coordinates": [ 11.9239974, 42.5347118 ] } },
+{ "type": "Feature", "properties": { "Name": "Candit", "description": "http:\/\/ecovillaggi.it\/rive\/ecovillaggi\/155-candit.html" }, "geometry": { "type": "Point", "coordinates": [ 14.199703, 42.24875 ] } },
+{ "type": "Feature", "properties": { "Name": "Eco Varchi\n", "description": "http:\/\/ecovillaggi.it\/rive\/progetti\/227-eco-varchi.html" }, "geometry": { "type": "Point", "coordinates": [ 8.238513300000021, 46.0667427 ] } },
+{ "type": "Feature", "properties": { "Name": "Ecovillaggio a pedali", "description": "http:\/\/ecovillaggioapedali.ecovillaggi.it" }, "geometry": { "type": "Point", "coordinates": [ 12.64486, 42.326258 ] } },
+{ "type": "Feature", "properties": { "Name": "Fattoria Il Rosmarino", "description": "http:\/\/ecovillaggi.it\/rive\/progetti\/183-rosmarino.html" }, "geometry": { "type": "Point", "coordinates": [ 12.2858102, 45.5469523 ] } },
+{ "type": "Feature", "properties": { "Name": "Negrignana", "description": "http:\/\/ecovillaggi.it\/rive\/progetti\/151-negrignana.html" }, "geometry": { "type": "Point", "coordinates": [ 10.0227683000001, 45.7060575 ] } },
+{ "type": "Feature", "properties": { "Name": "Tierra de Esperanza Cohousing", "description": "http:\/\/tierradeesperanza.ecovillaggi.it" }, "geometry": { "type": "Point", "coordinates": [ 11.6753848, 45.7225464 ] } }
+]
+}

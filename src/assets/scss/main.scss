@@ -1,0 +1,260 @@
+ @import "colours";
+
+body {
+  background-color: #232323;
+  color: $white;
+}
+
+a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    // color: $white !important;
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rajdhani";
+}
+.sue {
+  font-family: "Sue Ellen Francisco" !important;
+  font-size: 1.8rem;
+}
+input.form-control, .btn {
+  font-family: "Asar" !important;
+}
+
+#social_nav {
+  background-color: #fbfbfb;
+
+  background: linear-gradient(to bottom, #dedede, #fbfbfb 10px);
+  // border-bottom: 1px solid $dark-grey;
+  padding: 2px 0;
+  font-size: 12px;
+  height: 36px;
+
+  img {
+    max-width: 16px;
+    max-height: 16px;
+  }
+
+  a {
+    padding: 6px 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0;
+    min-width: 30px;
+    display: inline-block;
+    text-align: center;
+
+    &:hover {
+      background-color: $white;
+    }
+  }
+}
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+
+}
+
+#logo, #logo_map {
+  // background-color: $white;
+  // border-bottom: $medium-dark-grey 1px solid;
+  // border-left: $medium-dark-grey 1px solid;
+  // border-right: $medium-dark-grey 1px solid;
+  // border-radius: 0 0 50% 50%;
+  // padding: 5px;
+  position: relative;
+  top: -110px;
+  // width: 95px;
+  height: 0;
+  left: 30px;
+
+  img {
+    margin-left: -20px;
+    width: 130px;
+  }
+}
+#logo_map {
+  img {
+    margin-left: 0;
+    position: fixed;
+    top: -90px;
+  }
+}
+#logotipo {
+  height: 45px;
+  left: 130px;
+  position: absolute;
+  top: 7.5px;
+}
+#menu {
+  // position: fixed;
+  // right: 0;
+  padding: 5px 10px;
+  background-color: $white;
+  // top: 50%;
+  // border-radius: 9px 0 0 9px;
+  margin-right: 0 !important;
+  // z-index: 10;
+  // box-shadow: 0 0 9px 3px rgba(125, 125, 125, 0.5);
+  // border-left: $medium-dark-grey 1px solid;
+  // border-right: $medium-dark-grey 1px solid;
+  // border-bottom: $medium-dark-grey 1px solid;
+
+  &.sticky {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 0px none;
+    position: fixed;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+section {
+  min-height: 750px;
+  // box-shadow: 0 0 1em #000 inset;
+
+  > .free-container {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 0 -36% -6% 0;
+    padding: 25px;
+    position: relative;
+    z-index: 10;
+
+    h1 {
+      font-size: 1.5rem;
+      // font-style: italic;
+      font-family: "Merriweather";
+    }
+  }
+  &#real_time_comments {
+    background: url("../../img/139288518_106894398044009_68327063220367222_o.jpg") center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 120px 1rem #000 inset;
+  }
+  &#map {
+    background-color: $black !important;
+
+    .image-link.alignleft {
+      float: left;
+      height: 75px;
+      margin: 0 10px 20px 0;
+      top: 21px;
+      width: 75px;
+    }
+    .image-link.alignleft {
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline-block;
+      position: relative;
+    }
+    .project-meta {
+      width: 100%;
+      margin: 0;
+      font-size: .8em;
+      padding: 0;
+      justify-content: space-between;
+      display: flex;
+
+      li { list-style-type: none; }
+    }
+
+    .navbar {
+      padding: 2rem 0;
+    }
+    #logo_map {
+      border-radius: 0 0 45% 45% !important;
+      height: 105px;
+      padding-top: 15px;
+      position: fixed;
+      top: 0;
+      z-index: 500;
+    }
+    #map_search {
+      background-color: rgba(255, 255, 255, 0.75);
+      border-radius: 9px;
+      box-shadow: 0 0 33px #999;
+      left: 15%;
+      padding: 50px 0;
+      position: absolute;
+      top: 30%;
+      width: 70%;
+      z-index: 999;
+
+      h1 {
+        font-size: 1.62rem;
+      }
+      &.full {
+        left: auto;
+        padding: 8px 0 0 0;
+        position: fixed;
+        left: 20%;
+        top: 50%;
+        width: 60%;
+
+        h1 {
+          display: none;
+        }
+      }
+      #container {
+        margin: 0 8px;
+
+        #search_input {
+          background-color: rgba(255, 255, 255, 0.75);
+        }
+      }
+    }
+    #map_fullscreen_search {
+      display: block;
+      left: 25%;
+      position: absolute;
+      top: 11px;
+      width: 50%;
+      z-index: 999;
+    }
+    #map_area {
+      width: 100%;
+      height: 90%;
+      position: absolute;
+      z-index: 0;
+
+      &.full {
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 999;
+      }
+
+      .leaflet-tile-pane {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition: all 1s;
+      }
+      &:hover {
+        .leaflet-tile-pane {
+          -webkit-filter: grayscale(0%);
+          -moz-filter: grayscale(0%);
+          filter: grayscale(0%);
+          transition: all 1s;
+        }
+      }
+    }
+  }
+  &#about_us {
+    background-color: $dark-grey;
+  }
+}

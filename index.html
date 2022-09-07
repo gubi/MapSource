@@ -4,7 +4,15 @@
     <head>
         <base href="/" />
     	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta property="og:description" content="" />
+
+        <meta name="description" content="Find your community and resources through maps. It's Open Source and made for human!">
+        <meta property="og:description" content="Find your community and resources through maps. It's Open Source and made for human!" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="MapSource" />
+        <meta property="og:image" content="https://www.mapsource.me/common/media/img/logo%20sharing%20projects%20community-txt__125.png" />
+        <meta property="og:url" content="https://www.mapsource.me/" />
+        <meta property="og:site_name" content="MapSource">
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="pragma" content="no-cache">
@@ -14,7 +22,7 @@
         <!-- Bootstrap 5 -->
         <link href="src/assets/dist/bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
         <!-- FontAwesome icons -->
-        <link href="src/assets/dist/bower_components/fontawesome/css/fontawesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="src/assets/dist/bower_components/font-awesome/css/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
         <!-- Autocomplete -->
         <!-- <link href="src/assets/dist/bower_components/jquery-autocomplete/autocomplete.css" media="screen" rel="stylesheet" type="text/css" /> -->
         <!-- Leaflet -->
@@ -61,35 +69,35 @@
     </head>
 
     <body>
-        <header id="social_nav" class="d-flex flex-column flex-md-row align-items-center px-md-5">
+        <header id="social_nav" class="d-flex flex-column flex-md-row align-items-end ps-md-5">
             <p class="h5 my-0 me-md-auto fw-normal"></p>
-            <nav class="my-2 my-md-0 me-md-3">
-                <a class="px-1 text-primary" target="blank" href="https://www.facebook.com/groups/sharingprojectcommunity" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+            <nav class="me-2">
+                <a class="px-1 text-primary" target="blank" href="https://www.facebook.com/groups/sharingprojectcommunity" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
-                <a class="px-1 text-info" target="blank" href="https://mewe.com/join/ecovillaggicamerecolivingwwofingcooworking">
+                <a class="px-1 text-info" target="blank" href="https://mewe.com/join/ecovillaggicamerecolivingwwofingcooworking" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MeWe">
                     <img src="common/media/img/mewe-logo_256.png" />
                 </a>
-                <a class="px-1 text-warning" target="blank" href="https://www.minds.com/groups/profile/1195216965801734144/feed">
+                <a class="px-1 text-warning" target="blank" href="https://www.minds.com/groups/profile/1195216965801734144/feed" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Minds">
                     <img src="common/media/img/minds_logo.png" />
                 </a>
-                <a class="px-1 text-warning" target="blank" href="https://www.reddit.com/user/Sharing1Community">
+                <a class="px-1 text-warning" target="blank" href="https://www.reddit.com/user/Sharing1Community" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reddit">
                     <img src="common/media/img/reddit_logo.png" />
                 </a>
-                <a class="px-1 text-danger" target="blank" href="https://it.quora.com/q/sharingprojectcommunity">
+                <a class="px-1 text-danger" target="blank" href="https://it.quora.com/q/sharingprojectcommunity" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Quora">
                     <i class="fa fa-quora" aria-hidden="true"></i>
                 </a>
-                <a class="px-1 text-success" target="blank" href="https://gab.com/groups/18818">
+                <a class="px-1 text-success" target="blank" href="https://gab.com/groups/18818" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GAB">
                     <img src="common/media/img/gab_logo.png" />
                 </a>
                 &nbsp;&nbsp;
-                <a href="mailto:info@sharing-projects.community">
+                <a href="mailto:info@sharing-projects.community" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Contact us">
                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 </a>
             </nav>
         </header>
 
-        <nav class="navbar navbar-expand-lg bg-light sticky-top" style="background-color: #fff !important; box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);">
+        <nav class="navbar navbar-expand-sm bg-light sticky-top" style="box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);">
             <div class="container-fluid">
                 <a id="logo" class="navbar-brand" href="">
                     <img src="common/media/img/logo_web.png" />
@@ -98,44 +106,80 @@
                 <div class="d-flex justify-content-start">
                     <img id="logotipo" src="common/media/img/logo sharing projects community--txt__100.png" />
                 </div>
-                <div class="d-flex justify-content-end">
-                    <!-- <div id="menu" class="nav my-2 my-md-0 me-md-3"> -->
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" title="Home" href="./#">
-                                    <!-- <span class="fa fa-home"></span> -->
-                                    Home
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" title="Map" href="#map">
-                                    <!-- <span class="fa fa-map-o"></span> -->
-                                    Statistiche
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" title="Map" href="#map">
-                                    <!-- <span class="fa fa-map-o"></span> -->
-                                    Mappa
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#search">
-                                    <!-- <span class="fa fa-search"></span> -->
-                                    Ricerca
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about_us">
-                                    <!-- <span class="fa fa-question"></span> -->
-                                    About us
-                                </a>
-                            </li>
-                        </ul>
-                    <!-- </div> -->
+                <div class="d-flex justify-content-end d-none d-sm-block">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" title="Home" href="./#">
+                                <!-- <span class="fa fa-home"></span> -->
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Map" href="#map">
+                                <!-- <span class="fa fa-map-o"></span> -->
+                                Statistiche
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="Map" href="#map">
+                                <!-- <span class="fa fa-map-o"></span> -->
+                                Mappa
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#search">
+                                <!-- <span class="fa fa-search"></span> -->
+                                Ricerca
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about_us">
+                                <!-- <span class="fa fa-question"></span> -->
+                                About us
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile_menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
         </nav>
+        <div class="collapse" id="mobile_menu">
+            <div class="bg-light text-black py-2 pe-4">
+                <ul class="navbar-nav m-0 align-items-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" title="Home" href="./#">
+                            <!-- <span class="fa fa-home"></span> -->
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" title="Map" href="#map">
+                            <!-- <span class="fa fa-map-o"></span> -->
+                            Statistiche
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" title="Map" href="#map">
+                            <!-- <span class="fa fa-map-o"></span> -->
+                            Mappa
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#search">
+                            <!-- <span class="fa fa-search"></span> -->
+                            Ricerca
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_us">
+                            <!-- <span class="fa fa-question"></span> -->
+                            About us
+                        </a>
+                    </li>
+            </div>
+        </div>
 
         <!-- <section class="d-flex align-items-center justify-content-center" name="facebook_posts" id="real_time_comments">
             <div class="container free-container">
@@ -167,7 +211,10 @@
                                 </span> -->
                                 <input class="form-control form-control-lg" id="search_input" type="search" placeholder="Cerca una località, Ecovillaggio, co-living, wwoofing, progetti o collaborazioni..." aria-label="Cerca una località o un...">
                                 <!-- <button class="input-group-text btn btn btn-outline-secondary" type="submit"><i class="fa fa-search"></i></button> -->
-                                <button class="btn btn-secondary px-5" type="button">Cerca</button>
+                                <button class="btn btn-secondary px-5 d-none d-sm-block" type="button">Cerca</button>
+                                <button class="btn btn-secondary d-block d-sm-none" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
                                 <!-- <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Ecovillaggio</button> -->
                                 <!-- <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
@@ -209,7 +256,7 @@
             <!-- Leaflet -->
             <script type="text/javascript" src="src/assets/dist/bower_components/leaflet/dist/leaflet.js"></script>
                 <!-- Leaflet Ajax -->
-                <script type="text/javascript" src="src/assets/dist/bower_components/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+                <!-- <script type="text/javascript" src="src/assets/dist/bower_components/leaflet-ajax/dist/leaflet.ajax.min.js"></script> -->
                 <!-- Leaflet awesome-markers -->
                 <script type="text/javascript" src="src/assets/dist/bower_components/Leaflet.awesome-markers/dist/leaflet.awesome-markers.min.js"></script>
                 <!-- Leaflet Markercluster -->
@@ -217,9 +264,6 @@
                 <!-- <script type="text/javascript" src="common/data/locations.js"></script> -->
                 <!-- Leaflet Fullscreen -->
                 <script type="text/javascript" src="src/assets/dist/bower_components/leaflet-fullscreen/dist/Leaflet.fullscreen.min.js"></script>
-
-            <!-- Facebook SDK -->
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
             <!-- Main script -->
             <script type="text/javascript" src="src/assets/dist/js/main.js"></script>
